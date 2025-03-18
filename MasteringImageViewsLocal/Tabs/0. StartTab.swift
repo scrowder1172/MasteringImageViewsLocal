@@ -12,13 +12,24 @@ import SwiftUI
 
 struct StartTab: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Tab("Assets", systemImage: "1.circle") {
+                ImageAssetView()
+            }
+            Tab("Loading", systemImage: "2.circle") {
+                LoadingImages()
+            }
+            Tab("Clip&Mask", systemImage: "3.circle") {
+                ClippingAndMasking()
+            }
+            Tab("Template", systemImage: "4.circle") {
+                TemplateImage()
+            }
+            Tab("AssEffectsets", systemImage: "5.circle") {
+                ImageEffects()
+            }
+            
         }
-        .padding()
     }
 }
 
