@@ -14,7 +14,7 @@ import SwiftUI
 struct MasteringImageViewsLocalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartTab()
         }
     }
 }

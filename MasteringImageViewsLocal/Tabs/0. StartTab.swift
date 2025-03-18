@@ -1,5 +1,5 @@
 //
-// File: ContentView.swift
+// File: StartTab.swift
 // Project: MasteringImageViewsLocal
 // 
 // Created by SCOTT CROWDER on 3/18/25.
@@ -10,7 +10,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct StartTab: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -23,5 +23,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    StartTab()
 }
